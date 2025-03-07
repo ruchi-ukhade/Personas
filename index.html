@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personas and Storyboarding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 40px; /* Adding spacing between each persona section */
+        }
+
+        .content {
+            flex: 2;
+            min-width: 50%;
+        }
+
+        img {
+            width: 90%;
+            height: auto;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .sub-question {
+            margin-left: 20px;
+        }
+
+        .regular-text {
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        /* NEW: Ensure all personas stack vertically */
+        .personas-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px; /* Add spacing between personas */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Let’s observe the Barus and Holley public microwave!</h1>
+    <h4>Ruchi Ukhade CS1300</h4>
+    <h2>Part 1: Preparation</h2>
+
+    <div class="container">
+        <div class="content">
+            <h3>Interview Questions</h3>
+            
+            <div class="question">1. How often do you use this microwave?</div>
+            <div class="sub-question">a. Do you feel confident in using it?</div>
+
+            <div class="question">2. Why did you choose this microwave to use?</div>
+            <div class="sub-question">a. Is it the proximity, quality?</div>
+
+            <div class="question">3. Can you describe your approach using the microwave?</div>
+            <div class="sub-question">a. Step by step</div>
+
+            <div class="question">4. How clear do you feel is it to use the microwave?</div>
+
+            <div class="question">5. How do you wish your experience using this microwave could be improved?</div>
+            <div class="sub-question">a. What is the most frustrating part about using the microwave?</div>
+        </div>
+
+        <figure>
+            <img src="icrowavaeSketch.png" alt="Microwave Sketch" />
+        </figure>
+    </div>
+
+    <h2>Part 2: Recording Observations</h2>
+
+    <!-- Wrapping all personas inside one flex column container -->
+    <div class="personas-container">
+        <!-- Sarah Section -->
+        <div class="container">
+            <div class="content">
+                <h3>Sarah</h3>
+                <div class="regular-text">Sarah uses the microwave regularly and has her routine down to muscle memory—she always heats her food for two minutes because she knows it’ll be warm enough. She doesn’t have any trouble using it since it works the same as the one she has at home. The only real issue for her is cleanliness—if it’s too messy, she’ll head upstairs to use a different one.</div>
+            </div>
+            <figure>
+                <img src="SarahInt.png" alt="Sarah's Table" />
+            </figure>
+        </div>
+
+        <!-- Natalia Section -->
+        <div class="container">
+            <div class="content">
+                <h3>Natalia</h3>
+                <div class="regular-text">Natalia uses the microwave often and knows exactly how to operate it without any trouble. She always checks for cleanliness first, and if it’s too dirty—or if there are ants—she’ll head upstairs to use the student lounge microwave instead. After some trial and error, she’s settled on a routine of heating her food for a minute, stirring, and then heating it again for the best results. While she has no issues with how the microwave works, she does get frustrated with how rarely it’s cleaned.</div>
+            </div>
+            <figure>
+                <img src="NatInt.png" alt="Natalia's Table" />
+            </figure>
+        </div>
+
+        <!-- Jason Section -->
+        <div class="container">
+            <div class="content">
+                <h3>Jason</h3>
+                <div class="regular-text">Jason was using the microwave for the first time and felt uncertain about how it worked, mainly due to the unfamiliar button layout. He wasn’t sure whether he needed to manually enter the time or if it would start automatically, so he ended up just pressing "Start." He chose this microwave because it was close to his work studio where he was working that day. As he used it, he tried to figure out the buttons and initially kept the lid on his food for cleanliness but removed it midway to release pressure. Jason found the lack of clear instructions and feedback from the microwave frustrating. He expected some response when pressing buttons but got none.</div>
+            </div>
+            <figure>
+                <img src="JasonInt.png" alt="Jason's Table" />
+            </figure>
+        </div>
+    </div>
+
+    <h2>Part 3: Personas</h2>
+    <!-- Confused Camron Section -->
+    <div class="container">
+        <div class="content">
+            <h3>Confused Camron</h3>
+            <div class="regular-text">Camron is a first-time user who struggles with the unfamiliar interface and lacks clear guidance. He faces issues with the unclear button layout, the lack of feedback when pressing buttons, and confusion over how to input cooking time. Camron represents users who are unfamiliar with the microwave and may feel frustrated by an unintuitive design and lack of user support.</div>
+        </div>
+        <figure>
+            <img src="CamsMap.png" alt="Cams Map" />
+        </figure>
+    </div>
+
+    <!-- Slightly Stressed Sloan Section -->
+    <div class="container">
+        <div class="content">
+            <h3>Slightly Stressed Sloan</h3>
+            <div class="regular-text">Sloan is a regular user who values efficiency but is frustrated by the microwave’s cleanliness. She faces issues with the microwave’s lack of maintenance, which impacts her experience, representing users who prioritize functionality and hygiene in everyday interactions with the device.</div>
+        </div>
+        <figure>
+            <img src="SloansMap.png" alt="Sloans Map" />
+        </figure>
+    </div>
+
+    <h2>Part 4: Storyboard</h2>
+    <figure>
+        <img src="Storyboard.png" alt="Storyboard" />
+    </figure>
+
+</body>
+</html>
